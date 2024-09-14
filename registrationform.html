@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registraton Form</title>
+<style>
+body{
+background: linear-gradient(to bottom, #99ccff, #ff99cc);
+}
+</style>
+</head>
+<body>
+    <form>
+    <H1><i>STUDENT REGISTRATION FORM</i></H1>
+     <table>
+    <tr>
+        <td>First name:</td>
+        <td><input type="text" id="first name" placeholder="First name (Max 50 characters)" size="30"></td>
+    </tr> 
+    <tr>
+        <td>Last name:</td>
+        <td><input type="text" placeholder="Last name (Max 50 characters)" size="30"></td>
+    </tr>
+    <tr>
+        <td>Email ID:</td>
+        <td><input type="text" placeholder="abcdefg123@gmail.com" size="30"></td>
+    </tr>
+    <tr>
+         <td>Mobile number:</td>
+         <td><input type="text" placeholder="mobile number" size="25"></td>
+    </tr>
+    <tr>
+         <td><label>Gender:</label>
+         <td colspan="2">
+        <INPUT type="RADIO" value="Male" name="gender">Male
+        <INPUT type="RADIO" value="Female" name="gender">Female
+        </td>
+    </tr>
+    <tr>
+        <td><label>Date of birth(D.O.B):</label>
+        <td colspan="2">     
+         <select name="date">
+         <option value="month">date</option> 
+         <option value="month">1</option>    
+         <option value="month">2</option>
+         <option value="month">3</option> 
+         <option value="month">4</option>    
+         <option value="month">5</option>
+         <option value="month">6</option> 
+         <option value="month">7</option>    
+         <option value="month">8</option>
+         <option value="month">9</option> 
+         <option value="month">10</option>    
+         <option value="month">11</option>
+         <option value="month">12</option> 
+         </select>
+    <select name="month">
+        <option value="month">month</option> 
+        <option value="month">January</option>    
+        <option value="month">Feburary</option>
+        <option value="month">March</option> 
+        <option value="month">April</option>    
+        <option value="month">May</option>
+        <option value="month">June</option> 
+        <option value="month">July</option>    
+        <option value="month">August</option>
+        <option value="month">September</option> 
+        <option value="month">October</option>    
+        <option value="month">November</option>
+        <option value="month">December</option> 
+    </select>
+    <select name="year">
+        <option value="month">year</option> 
+        <option value="month">2003</option>    
+        <option value="month">2004</option>
+        <option value="month">2005</option> 
+        <option value="month">2006</option>    
+        <option value="month">2007</option>
+    </select> 
+    </td>
+    <tr>
+       <td> Address:</td>
+       <td colspan="2"><textarea name="address" placeholder="Address" rows="7"></textarea></td>
+    </tr>
+    <tr>
+       <td>City:</td>
+       <td><input type="text" placeholder="City (max 50 characters)" size="25"></td>
+    </tr>
+    <tr>
+        <td>Pin code:</td>
+        <td><input type="text" placeholder="------ (Max 6 characters)"size="25"></td>
+    </tr>
+    <tr>
+        <td>State:</td>  
+        <td><input type="text" placeholder="state (Max 50 characters)" size="25"></td>
+    </tr>
+    <tr>
+        <td>Country:</td>  
+        <td><input type="text" placeholder="country (Max 50 characters)" size="25"></td>
+    </tr>
+    <tr>
+        <td><label for="Hobbies">Hobbies:</label></td>
+        <td colspan="2"><br>
+               <input type="checkbox" value="Drawing" name="hobbie">Drawing
+               <input type="checkbox" value="Singing" name="hobbie">Singing
+               <input type="checkbox" value="Dancing" name="hobbie">Dancing<br>
+               <input type="checkbox" value="others" name="hobbie">Others <input type="Text" placeholder="Ex Sports" size="15">
+        </td>
+    </td>
+    </tr>
+    <tr>
+    <td><label for="qualification">Qualification:</label></td>
+        <td colspan="2"><br>
+                <input type="checkbox" name="qualification">High School(10th passed)<br>
+                <input type="checkbox" name="qualification">Higher School(12th passed)<br>
+                <input type="checkbox" name="qualification">Graduate(Bachelors)<br>
+                <input type="checkbox" name="qualification">Post Graduate(Masters)<br>
+                <input type="checkbox" name="qualification">Phd<br>
+        </td>
+    </tr>   
+    <tr>
+       <td><label for="courses">Courses applied for:</label></td>
+        <td colspan="2"><br>
+                       <input type="checkbox" name="courses">BCA(Bachelors of Computer Application)<br>
+                       <input type="checkbox" name="courses">B.com(Bachelors of Commerce)<br>
+                       <input type="checkbox" name="courses">B.Sc(Bachelors of Science)<br>
+                       <input type="checkbox" name="courses">B.A(Bachelors of Arts)<br>
+                       <input type="checkbox" name="courses">MCA(Masters of Computer Application)<br>
+                       <input type="checkbox" name="courses">M.com(Masters of Commerce)<br>
+                       <input type="checkbox" name="courses">M.Sc(Masters of Science)<br>
+                       <input type="checkbox" name="courses">M.A(Masters of Arts)<br>
+        </td>
+        </tr>
+        <br>
+        <tr>
+            <br>
+        <td>Files:</td>
+        <td> <input type="file" id="myfile" name="filename"></td>
+        </tr>
+    </table>
+             
+               <input type="Reset">  <input type="Submit">
+    </form>
+</body>
+</html>
